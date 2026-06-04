@@ -1,2 +1,2 @@
 # gumite-restaurant
-A restaurant page built with vanillar js
+_Still under development..._
