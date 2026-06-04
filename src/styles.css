@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f4ef;
+  color: #333;
+}
+
+header {
+  background: #7a2e1f;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav button {
+  border: none;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  background: white;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+#content {
+  max-width: 900px;
+  margin: 0.8rem auto;
+  padding: 1.5rem;
+}
+
+.home {
+  text-align: center;
+}
+
+.home h1 {
+  margin-bottom: 1rem;
+}
+
+.home p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.home img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  margin: 1.1rem 0;
+}
