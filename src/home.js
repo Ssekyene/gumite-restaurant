@@ -13,14 +13,19 @@ export default function loadHome() {
 
   const description = document.createElement("p");
   description.textContent =
-    "At Gumite Restaurant, we serve carefully prepared local and international dishes made from the freshest ingredients.";
+    "Experience delicious local and international cuisine prepared with fresh ingredients and served in a warm, welcoming atmosphere.";
 
   const image = document.createElement("img");
 
   image.src = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4";
   image.alt = "Restaurant interior";
 
-  home.append(title, image, tagline, description);
+  const hours = document.createElement("p");
+  hours.textContent ="Open Daily: 8:00 AM - 11:00 PM";
 
-  content.appendChild(home);
+  home.append(title, image, tagline, description, hours);
+
+  //content.appendChild(home);
+
+  return home;
 }

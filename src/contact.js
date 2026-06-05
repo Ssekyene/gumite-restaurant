@@ -18,5 +18,6 @@ export default function loadContact() {
 
   contact.append(title, phone, email, address);
 
-  content.appendChild(contact);
+  //content.appendChild(contact);
+  return contact;
 }
