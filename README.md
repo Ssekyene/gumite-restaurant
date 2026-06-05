@@ -1,2 +1,2 @@
 # gumite-restaurant
-_Still under development..._
+A miniature restaurant website built to demonstrate the knowledge and capabilities of using webpack bundler and ES6 modules. The project is built using vanilla JavaScript, HTML, and CSS, without any frameworks or libraries.
