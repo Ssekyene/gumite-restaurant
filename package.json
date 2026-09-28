@@ -22,8 +22,13 @@
   },
   "homepage": "https://github.com/Ssekyene/gumite-restaurant#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "css-loader": "^7.1.4",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.12.0",
     "html-webpack-plugin": "^5.6.7",
+    "prettier": "3.9.9",
     "style-loader": "^4.0.0",
     "webpack": "^5.107.2",
     "webpack-cli": "^7.0.3",

@@ -20,25 +20,25 @@ export default function loadMenu() {
   item4.textContent = "🥤 Fresh Juice - $3"; */
 
   function createMenuItem(name, price) {
-  const item = document.createElement("div");
+    const item = document.createElement("div");
 
-  item.classList.add("menu-item");
+    item.classList.add("menu-item");
 
-  item.innerHTML = `
+    item.innerHTML = `
     <h3>${name}</h3>
     <p>${price}</p>
   `;
 
-  return item;
-}
+    return item;
+  }
 
-menu.append(
-  title,
-  createMenuItem("Beef Burger", "$8"),
-  createMenuItem("Margherita Pizza", "$12"),
-  createMenuItem("Spaghetti Bolognese", "$10"),
-  createMenuItem("Fresh Juice", "$3")
-);
+  menu.append(
+    title,
+    createMenuItem("Beef Burger", "$8"),
+    createMenuItem("Margherita Pizza", "$12"),
+    createMenuItem("Spaghetti Bolognese", "$10"),
+    createMenuItem("Fresh Juice", "$3"),
+  );
 
   //content.appendChild(menu);
   return menu;

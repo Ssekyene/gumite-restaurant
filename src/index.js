@@ -3,7 +3,6 @@ import loadHome from "./home.js";
 import loadMenu from "./menu.js";
 import loadContact from "./contact.js";
 
-
 const homeBtn = document.querySelector("#home-btn");
 const menuBtn = document.querySelector("#menu-btn");
 const contactBtn = document.querySelector("#contact-btn");
@@ -44,4 +43,3 @@ contactBtn.addEventListener("click", () => {
   renderPage(loadContact);
   setActiveButton(contactBtn);
 });
-

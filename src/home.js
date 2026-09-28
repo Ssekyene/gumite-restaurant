@@ -1,5 +1,5 @@
 export default function loadHome() {
-  const content = document.querySelector("#content");
+  //const content = document.querySelector("#content");
 
   const home = document.createElement("div");
   home.classList.add("home");
@@ -21,7 +21,7 @@ export default function loadHome() {
   image.alt = "Restaurant interior";
 
   const hours = document.createElement("p");
-  hours.textContent ="Open Daily: 8:00 AM - 11:00 PM";
+  hours.textContent = "Open Daily: 8:00 AM - 11:00 PM";
 
   home.append(title, image, tagline, description, hours);
 
